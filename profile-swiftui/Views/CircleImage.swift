@@ -1,15 +1,10 @@
-//
-//  CircleImage.swift
-//  profile-swiftui
-//
-//  Created by Developer Elo7 on 07/12/22.
-//
-
 import SwiftUI
 
 struct CircleImage: View {
+    var image: Image
+    
     var body: some View {
-        Image("italo")
+        image
             .clipShape(Circle())
             .overlay{
                 Circle().stroke(.white, lineWidth: 4)
@@ -20,6 +15,6 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleImage(image: Image("italo"))
     }
 }
