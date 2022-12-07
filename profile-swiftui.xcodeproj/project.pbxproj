@@ -14,6 +14,8 @@
 		8B8078C6294106450005DB3B /* profile_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8078C5294106450005DB3B /* profile_swiftuiTests.swift */; };
 		8B8078D0294106450005DB3B /* profile_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8078CF294106450005DB3B /* profile_swiftuiUITests.swift */; };
 		8B8078D2294106450005DB3B /* profile_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8078D1294106450005DB3B /* profile_swiftuiUITestsLaunchTests.swift */; };
+		8B8078E129410F380005DB3B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8078E029410F380005DB3B /* CircleImage.swift */; };
+		8B8078E3294114930005DB3B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8078E2294114930005DB3B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8B8078CB294106450005DB3B /* profile-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "profile-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8078CF294106450005DB3B /* profile_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile_swiftuiUITests.swift; sourceTree = "<group>"; };
 		8B8078D1294106450005DB3B /* profile_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B8078E029410F380005DB3B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8B8078E2294114930005DB3B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				8B8078B4294106430005DB3B /* profile_swiftuiApp.swift */,
 				8B8078B6294106430005DB3B /* ContentView.swift */,
 				8B8078B8294106450005DB3B /* Assets.xcassets */,
+				8B8078E029410F380005DB3B /* CircleImage.swift */,
+				8B8078E2294114930005DB3B /* MapView.swift */,
 				8B8078BA294106450005DB3B /* Preview Content */,
 			);
 			path = "profile-swiftui";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8078B7294106430005DB3B /* ContentView.swift in Sources */,
+				8B8078E3294114930005DB3B /* MapView.swift in Sources */,
 				8B8078B5294106430005DB3B /* profile_swiftuiApp.swift in Sources */,
+				8B8078E129410F380005DB3B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
